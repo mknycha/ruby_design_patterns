@@ -1,3 +1,5 @@
+# Concrete product
+
 class HeavyArmor
   def to_s
     'Heavy armor'

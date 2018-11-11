@@ -1,3 +1,5 @@
+# Concrete product
+
 class Wand
   def to_s
     'Wand'

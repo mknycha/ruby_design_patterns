@@ -1,3 +1,5 @@
+# Concrete factory
+
 class WizardEquipmentFactory < EquipmentFactory
   def make_armor
     LightArmor.new

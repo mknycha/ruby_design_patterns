@@ -1,3 +1,5 @@
+# Abstract factory
+
 class EquipmentFactory
   def make_armor
     raise 'This method must be overritten in a subclass'

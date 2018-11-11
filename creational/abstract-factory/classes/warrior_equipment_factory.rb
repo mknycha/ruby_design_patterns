@@ -1,3 +1,5 @@
+# Concrete factory
+
 class WarriorEquipmentFactory < EquipmentFactory
   def make_armor
     HeavyArmor.new

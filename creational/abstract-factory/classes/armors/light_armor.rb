@@ -1,3 +1,5 @@
+# Concrete product
+
 class LightArmor
   def to_s
     'Light armor'
