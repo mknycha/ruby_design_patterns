@@ -1,5 +1,5 @@
 class LightArmor
-    def to_s
-        'Light armor'
-    end
+  def to_s
+    'Light armor'
+  end
 end

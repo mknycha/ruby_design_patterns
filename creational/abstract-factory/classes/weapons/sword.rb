@@ -1,5 +1,5 @@
 class Sword
-    def to_s
-        'Sword'
-    end
+  def to_s
+    'Sword'
+  end
 end
