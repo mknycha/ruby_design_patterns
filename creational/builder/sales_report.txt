@@ -1,0 +1,3 @@
+id, name, surname, sales
+1, John, Kovalsky, 10000
+2, Jim, Smith, 70000

@@ -1,0 +1,4 @@
+id, name, surname, salary, tax
+1, John, Kovalsky, 2000, 380
+2, Jim, Smith, 3000, 570
+SUM, , , 5000, 950
