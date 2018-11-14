@@ -5,14 +5,14 @@ data = [
     id: 1,
     name: 'John',
     surname: 'Kovalsky',
-    salary: 2000,
-    sales: 10000
-  },{
+    salary: 2_000,
+    sales: 10_000
+  }, {
     id: 2,
     name: 'Jim',
     surname: 'Smith',
-    salary: 3000,
-    sales: 70000
+    salary: 3_000,
+    sales: 70_000
   }
 ]
 

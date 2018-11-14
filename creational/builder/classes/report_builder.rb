@@ -5,7 +5,7 @@ class ReportBuilder
     @content = []
   end
 
-  def set_data(data)
+  def set_data(_data)
     raise 'Must be implemented in a sublcass'
   end
 
@@ -14,6 +14,9 @@ class ReportBuilder
   end
 
   def generate_file
-    raise 'Must be implemented in a sublcass'
+    report_file = File.new(@file_name, 'w')
+    report_file.puts(@content)
+    report_file.close
+    report_file
   end
 end
