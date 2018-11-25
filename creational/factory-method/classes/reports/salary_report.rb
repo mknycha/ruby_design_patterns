@@ -10,7 +10,7 @@ class SalaryReport < BaseReport
   def headers_row
     %w(id name surname salary(EUR))
   end
-  
+
   def query_results
     EmployeesQuery.new.results
   end

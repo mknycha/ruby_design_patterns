@@ -28,7 +28,8 @@ class BaseReport
     data
   end
 
-  def query_results # Factory method
+  # Factory method
+  def query_results
     raise 'Must be implemented in a subclass'
   end
 
@@ -38,7 +39,7 @@ class BaseReport
 
   def format_last_column_amount(row)
     amount = row[-1].to_f
-    formatted_amount = sprintf('%.2f', amount)
+    formatted_amount = format('%.2f', amount)
     formatted_row = row.dup
     formatted_row[-1] = formatted_amount
     formatted_row

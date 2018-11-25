@@ -6,4 +6,3 @@ puts 'Generating salary report'
 SalaryReport.new.generate_file
 puts 'Generating sales report'
 SalesReport.new.generate_file
-
