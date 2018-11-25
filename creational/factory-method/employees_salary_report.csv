@@ -1,0 +1,5 @@
+id,name,surname,salary(EUR)
+1,John,Reyes,2000.00
+3,Jim,Kovalsky,3000.00
+6,Ann,Smith,2500.00
+,,SUM,7500.00

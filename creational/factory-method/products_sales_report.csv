@@ -1,0 +1,5 @@
+id,category,sales count,sales amount
+2,tablets,100,3000.00
+3,phones,300,6000.00
+6,laptops,50,25000.00
+,,SUM,34000.00
