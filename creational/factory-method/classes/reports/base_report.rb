@@ -2,7 +2,7 @@
 
 class BaseReport
   def generate_file
-    ::CSV.open("#{filename}.csv", 'wb') do |csv|
+    CSV.open("#{filename}.csv", 'wb') do |csv|
       csv << headers_row
       raw_data.each do |raw_data_row|
         csv << format_last_column_amount(raw_data_row)
